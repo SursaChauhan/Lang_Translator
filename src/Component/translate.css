@@ -1,0 +1,81 @@
+/* App.css */
+body {
+    background-color: #2d2d2d;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .translation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .language-select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .language-select select {
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #3a3a3a;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .swap-button {
+    padding: 10px;
+    background-color: #444;
+    border: 1px solid #555;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .swap-button:hover {
+    background-color: #555;
+  }
+  
+  .input-text {
+    width: 80%;
+    padding: 10px;
+    background-color: #3a3a3a;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .translate-button {
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .translate-button:hover {
+    background-color: #1765c0;
+  }
+  
+  .translation-result {
+    width: 80%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3a3a3a;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
