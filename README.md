@@ -1,7 +1,3 @@
-Certainly! Here's a template for a README file that covers the aspects you mentioned:
-
----
-
 # Lang_Translator
 
 Welcome to Lang_Translator! This repository contains the codebase for [Language Translator is a modern single-page web app built with React and CSS, offering real-time translation powered by the Google Translate API. Features include user-friendly interfaces, text recognition with web speech API for text-to-speech conversion, and responsive design ensuring seamless usability across all devices.].
@@ -17,13 +13,13 @@ This project provides the following functionalities:
 
 ## Deployment
 
-You can access the deployed version of this project at [Deployment Link]().
+You can access the deployed version of this project at [Deployment Link](https://lang-translator-rgqa.onrender.com/).
 
 ## Screenshots
 
 Here is a screenshot of the homepage:
 
-![Homepage Screenshot]()
+![Homepage Screenshot](https://github.com/SursaChauhan/Lang_Translator/assets/132122228/dad9777d-5837-455b-a2d0-3a60e1ab0ddc)
 
 ## Video Presentation
 
