@@ -4,7 +4,7 @@ import './translate.css'; // Import the CSS file
 import mic from '../Images/Mic.png';
 import speakers from '../Images/speakers.png';
 
-const App = () => {
+const TranslateApp = () => {
   const [text, setText] = useState('');
   const [translatedText, setTranslatedText] = useState('');
   const [inputLanguage, setInputLanguage] = useState('en'); // Default input language
@@ -160,4 +160,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default TranslateApp;
