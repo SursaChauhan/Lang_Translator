@@ -108,7 +108,7 @@ const TranslateApp = () => {
 
   return (
     <div>
-      <h1>Google Translate Clone</h1>
+      <h1>Language Translator</h1>
       <div className="translation-form">
         <div className="language-select">
           <select value={inputLanguage} onChange={(e) => setInputLanguage(e.target.value)}>
