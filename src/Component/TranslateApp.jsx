@@ -8,7 +8,7 @@ const TranslateApp = () => {
   const [text, setText] = useState('');
   const [translatedText, setTranslatedText] = useState('');
   const [inputLanguage, setInputLanguage] = useState('en'); // Default input language
-  const [outputLanguage, setOutputLanguage] = useState('es'); // Default output language
+  const [outputLanguage, setOutputLanguage] = useState('hi'); // Default output language
   const [languages, setLanguages] = useState([]); // Supported languages
 
   useEffect(() => {
@@ -17,7 +17,8 @@ const TranslateApp = () => {
         const response = await axios.get('https://translation.googleapis.com/language/translate/v2/languages', {
           params: {
             key: process.env.REACT_APP_GOOGLE_TRANSLATE_API_KEY,
-            target: 'en' // Optionally specify a target language to get the names of languages in a specific language
+            target: 'en', // Optionally specify a target language to get the names of languages in a specific language
+          
           }
         });
         setLanguages(response.data.data.languages);

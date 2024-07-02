@@ -1,3 +1,5 @@
+
+
 body {
   background-color: #2d2d2d;
   color: white;
@@ -19,19 +21,24 @@ h1 {
 }
 
 .language-select {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
   margin-bottom: 10px;
+
   gap: 10px;
 }
 
 .language-select select {
+  width: 45%;
   padding: 10px;
   background-color: #3a3a3a;
   border: 1px solid #444;
   color: white;
   border-radius: 5px;
+  font-size: 16px;
 }
 
 .swap-button {
@@ -49,8 +56,9 @@ h1 {
 
 .textarea {
   display: flex;
-  gap: 4%;
+  gap: 10%;
   width: 100%;
+  
 }
 
 .input, .output {
@@ -60,6 +68,7 @@ h1 {
   width: 45%;
   background-color: rgb(100, 121, 138);
   border-radius: 5px;
+  
 }
 
 .input img, .output img {
@@ -75,6 +84,8 @@ h1 {
   border: none;
   border-radius: 5px;
   resize: none;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .input textarea::placeholder, .output textarea::placeholder {
