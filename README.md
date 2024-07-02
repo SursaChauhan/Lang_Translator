@@ -24,7 +24,7 @@ Here is a screenshot of the homepage:
 ## Video Presentation
 
 Watch our project presentation to learn more about its features and functionality:
-[Project Presentation Video]()
+[Project Presentation Video](https://vimeo.com/974163203/c8ff53d648?share=copy)
 
 ## Environment Variables
 
