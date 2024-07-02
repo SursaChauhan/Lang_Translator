@@ -1,81 +1,106 @@
-/* App.css */
 body {
-    background-color: #2d2d2d;
-    color: white;
-    font-family: Arial, sans-serif;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .translation-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .language-select {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .language-select select {
-    padding: 10px;
-    margin: 0 5px;
-    background-color: #3a3a3a;
-    border: 1px solid #444;
-    color: white;
-    border-radius: 5px;
-  }
-  
-  .swap-button {
-    padding: 10px;
-    background-color: #444;
-    border: 1px solid #555;
-    color: white;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  .swap-button:hover {
-    background-color: #555;
-  }
-  
-  .input-text {
-    width: 80%;
-    padding: 10px;
-    background-color: #3a3a3a;
-    border: 1px solid #444;
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .translate-button {
-    padding: 10px 20px;
-    background-color: #1a73e8;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .translate-button:hover {
-    background-color: #1765c0;
-  }
-  
-  .translation-result {
-    width: 80%;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #3a3a3a;
-    border: 1px solid #444;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-  }
-  
+  background-color: #2d2d2d;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.translation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+.language-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.language-select select {
+  padding: 10px;
+  background-color: #3a3a3a;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 5px;
+}
+
+.swap-button {
+  padding: 10px;
+  background-color: #444;
+  border: 1px solid #555;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.swap-button:hover {
+  background-color: #555;
+}
+
+.textarea {
+  display: flex;
+  gap: 4%;
+  width: 100%;
+}
+
+.input, .output {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 45%;
+  background-color: rgb(100, 121, 138);
+  border-radius: 5px;
+}
+
+.input img, .output img {
+  width: 40px;
+  cursor: pointer;
+}
+
+.input textarea, .output textarea {
+  height: 150px;
+  padding: 10px;
+  background-color: rgb(100, 121, 138);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+
+.input textarea::placeholder, .output textarea::placeholder {
+  color: #ccc;
+}
+
+.translate-button {
+  padding: 10px 20px;
+  background-color: #1a73e8;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.translate-button:hover {
+  background-color: #1765c0;
+}
+
+.translation-result {
+  width: 80%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #3a3a3a;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 5px;
+  text-align: left;
+}
